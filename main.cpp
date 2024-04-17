@@ -23,8 +23,8 @@ $hook(void, StateGame, init, StateManager& s)
 	glm::vec3* deadlyTUVPos = deadlyPickTUV;
 
 	// customizable color values
-	glm::vec3 ironPickA{ 0.7, 0.35, 0.0 };
-	glm::vec3 ironPickB{ 0.5, 0.25, 0.0 };
+	glm::vec3 ironPickA{ 1, 0.533, 0.443 };
+	glm::vec3 ironPickB{ 1, 0.235, 0.82 };
 	glm::vec3 deadlyPickA{ 1, 1, 0 };
 	glm::vec3 deadlyPickB{ 0, 1, 0 };
 	glm::vec3 deadlyPickC{ 0, 1, 1 };
